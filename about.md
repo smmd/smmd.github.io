@@ -11,9 +11,8 @@ lang: en
 
 # About Me
 
-Mexican passionate about software development.
+Hey there! I'm Sag, a Mexican software engineer passionate about building robust and scalable backend systems. I love diving deep into software architecture, contributing to open source, and sharing knowledge with the tech community.
 
-**Location:** Mexico  
 **Pronouns:** She, Her  
 **Work:** Senior Software Artisan  
 **Education:** MX-IPN

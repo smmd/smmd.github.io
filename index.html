@@ -11,7 +11,7 @@ lang: en
       <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="{{ site.translations[current_lang].site_title | default: site.title }}" class="profile-image">
     </div>
     <h1 class="page-heading">{{ site.translations[current_lang].site_title | default: site.title }}</h1>
-    <p class="site-description">{{ site.translations[current_lang].site_description | default: site.description }}</p>
+    <p class="site-description">Hey there! I'm Sag, a Mexican software engineer passionate about building robust and scalable backend systems. I love diving deep into software architecture, contributing to open source, and sharing knowledge with the tech community.</p>
   </div>
 
   <div class="posts">
@@ -46,7 +46,7 @@ lang: en
 
   <div class="about-preview">
     <h2>{% if current_lang == 'es' %}Acerca de mí{% else %}About Me{% endif %}</h2>
-    <p>{% if current_lang == 'es' %}Mexicana apasionada por el desarrollo de software. Artesana de Software Senior con experiencia en PHP, Golang, Javascript, Python y más.{% else %}Mexican passionate about software development. Senior Software Artisan with experience in PHP, Golang, Javascript, Python, and more.{% endif %}</p>
+    <p>{% if current_lang == 'es' %}¡Hola! Soy Sag, una ingeniera de software mexicana apasionada por construir sistemas backend robustos y escalables. Me encanta profundizar en arquitectura de software, contribuir a proyectos de código abierto y compartir conocimiento con la comunidad tecnológica.{% else %}Hey there! I'm Sag, a Mexican software engineer passionate about building robust and scalable backend systems. I love diving deep into software architecture, contributing to open source, and sharing knowledge with the tech community.{% endif %}</p>
     <a href="{% if current_lang == 'es' %}/es/about{% else %}/about{% endif %}" class="btn">{% if current_lang == 'es' %}Saber más{% else %}Learn More{% endif %}</a>
   </div>
 </div>

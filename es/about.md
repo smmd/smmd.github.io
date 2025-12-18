@@ -11,7 +11,7 @@ lang: es
 
 # Acerca de mí
 
-Mexicana apasionada por el desarrollo de software.
+¡Hola! Soy Sag, una ingeniera de software mexicana apasionada por construir sistemas backend robustos y escalables. Me encanta profundizar en arquitectura de software, contribuir a proyectos de código abierto y compartir conocimiento con la comunidad tecnológica.
 
 **Ubicación:** México  
 **Pronombres:** Ella  
