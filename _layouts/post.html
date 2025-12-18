@@ -8,13 +8,16 @@ layout: default
   {% assign other_lang = 'en' %}
 {% endif %}
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%b %d, %Y" }}
       </time>
+      {% if page.date %}
+      <meta itemprop="dateModified" content="{{ page.date | date_to_xmlschema }}">
+      {% endif %}
       {% if page.tags %}
         <span class="post-tags">
           {% for tag in page.tags %}
@@ -23,6 +26,12 @@ layout: default
         </span>
       {% endif %}
     </p>
+    <meta itemprop="author" itemscope itemtype="https://schema.org/Person">
+    <meta itemprop="name" content="{{ site.author }}">
+    {% if page.translation %}
+    <link itemprop="inLanguage" href="{{ current_lang }}">
+    <link itemprop="translationOfWork" href="{{ page.translation | absolute_url }}">
+    {% endif %}
     {% if page.translation %}
       <div class="post-translation">
         <p class="translation-link">
@@ -37,6 +46,36 @@ layout: default
     {{ content }}
   </div>
 
+  <!-- Structured Data for Blog Post -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page.title | escape }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}"
+    },
+    "description": "{{ page.excerpt | default: page.title | strip_html | truncatewords: 30 | escape }}",
+    "inLanguage": "{{ current_lang }}",
+    "url": "{{ page.url | absolute_url }}"
+    {% if page.translation %},
+    "translationOfWork": {
+      "@type": "BlogPosting",
+      "url": "{{ page.translation | absolute_url }}"
+    }
+    {% endif %}
+  }
+  </script>
+
   <div class="post-navigation">
     {% if current_lang == 'es' %}
       <a href="{{ "/es/" | relative_url }}" class="btn">← Volver al inicio</a>
@@ -45,4 +84,3 @@ layout: default
     {% endif %}
   </div>
 </article>
-

@@ -42,3 +42,32 @@ This site is automatically built and deployed to GitHub Pages using GitHub Actio
 4. The site will be automatically deployed on the next push to main
 
 The site will be available at `https://smmd.github.io` once deployed.
+
+## SEO Features
+
+This site includes comprehensive SEO optimization:
+
+- **Meta Tags**: Automatic meta tags via `jekyll-seo-tag` plugin
+- **Structured Data**: JSON-LD schema markup for Person and BlogPosting
+- **Sitemap**: XML sitemap at `/sitemap.xml` for search engines
+- **Robots.txt**: Configured at `/robots.txt` to guide crawlers
+- **Canonical URLs**: Prevents duplicate content issues
+- **Hreflang Tags**: Bilingual support (English/Spanish) for proper language targeting
+- **RSS Feed**: Available at `/feed.xml` for content syndication
+- **Open Graph Tags**: For better social media sharing (via jekyll-seo-tag)
+- **Twitter Cards**: Configured for Twitter sharing
+
+### Submitting to Search Engines
+
+1. **Google Search Console**:
+   - Visit [Google Search Console](https://search.google.com/search-console)
+   - Add your site: `https://smmd.github.io`
+   - Verify ownership (you can use the HTML tag method or DNS)
+   - Submit your sitemap: `https://smmd.github.io/sitemap.xml`
+
+2. **Bing Webmaster Tools**:
+   - Visit [Bing Webmaster Tools](https://www.bing.com/webmasters)
+   - Add your site and submit the sitemap
+
+3. **Google Site Verification**:
+   - Add your verification code to `_config.yml` under `google_site_verification` (when available)

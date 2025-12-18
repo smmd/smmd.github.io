@@ -55,6 +55,22 @@ social:
   youtube: 
   bluesky: 
 
+# SEO Settings
+twitter:
+  username:
+  card: summary_large_image
+
+# Google Search Console verification (TODO add verification code here when available)
+# google_site_verification:
+
+# SEO Plugin Configuration
+jekyll-seo-tag:
+  image: /assets/images/profile-photo.jpg
+  image_alt: Sagrario Meneses - Software Engineer
+  locale: en_US
+  site_name: Sagrario Meneses
+  title_separator: "|"
+
 # Navigation (will be translated in layouts)
 navigation:
   - key: home
@@ -74,4 +90,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - estandares-de-calidad-en-el-software.md.txt
-

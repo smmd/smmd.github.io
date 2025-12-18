@@ -82,4 +82,3 @@ PHP, Golang, Javascript, Python, Testing, Clean Code, Laravel, Symfony...
 ## Biografía
 
 🌸 Ella • ⛪ Católica • 🎙️ Speaker • 🍷 Sommelier • 💻 Ingeniera de Software
-

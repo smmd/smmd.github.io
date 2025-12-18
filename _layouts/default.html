@@ -7,10 +7,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.translations[current_lang].site_description | default: site.description }}">
 
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.translations[current_lang].site_title | default: site.title }}</title>
+    {% seo %}
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+    <!-- Alternate language versions -->
+    {% if page.translation %}
+      <link rel="alternate" hreflang="{{ current_lang }}" href="{{ page.url | absolute_url }}">
+      <link rel="alternate" hreflang="{% if current_lang == 'en' %}es{% else %}en{% endif %}" href="{{ page.translation | absolute_url }}">
+    {% else %}
+      {% if current_lang == 'en' %}
+        {% if page.url == '/' %}
+          <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+          <link rel="alternate" hreflang="es" href="{{ '/es/' | absolute_url }}">
+        {% elsif page.url contains '/about/' %}
+          <link rel="alternate" hreflang="en" href="{{ '/about/' | absolute_url }}">
+          <link rel="alternate" hreflang="es" href="{{ '/es/about/' | absolute_url }}">
+        {% elsif page.url contains '/blog/' %}
+          <link rel="alternate" hreflang="en" href="{{ '/blog/' | absolute_url }}">
+          <link rel="alternate" hreflang="es" href="{{ '/es/blog/' | absolute_url }}">
+        {% endif %}
+      {% else %}
+        {% if page.url == '/es/' %}
+          <link rel="alternate" hreflang="es" href="{{ '/es/' | absolute_url }}">
+          <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+        {% elsif page.url contains '/es/about/' %}
+          <link rel="alternate" hreflang="es" href="{{ '/es/about/' | absolute_url }}">
+          <link rel="alternate" hreflang="en" href="{{ '/about/' | absolute_url }}">
+        {% elsif page.url contains '/es/blog/' %}
+          <link rel="alternate" hreflang="es" href="{{ '/es/blog/' | absolute_url }}">
+          <link rel="alternate" hreflang="en" href="{{ '/blog/' | absolute_url }}">
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ '/feed.xml' | relative_url }}">
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        {% if site.social.github %}"https://github.com/{{ site.social.github }}"{% if site.social.devto or site.social.website %},{% endif %}{% endif %}
+        {% if site.social.devto %}"https://dev.to/{{ site.social.devto }}"{% if site.social.website %},{% endif %}{% endif %}
+        {% if site.social.website %}"{{ site.social.website }}"{% endif %}
+      ],
+      "jobTitle": "Senior Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Software Engineering"
+      },
+      "description": "{{ site.translations[current_lang].site_description | default: site.description | escape }}"
+    }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -114,4 +173,3 @@
     </footer>
   </body>
 </html>
-

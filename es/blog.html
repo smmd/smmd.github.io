@@ -7,7 +7,7 @@ lang: es
 
 <div class="blog-page">
   <h1 class="page-heading">Todas las Publicaciones</h1>
-  
+
   <ul class="post-list">
     {% assign posts = site.posts | where: "lang", "es" %}
     {% for post in posts %}
@@ -32,4 +32,3 @@ lang: es
     {% endfor %}
   </ul>
 </div>
-
