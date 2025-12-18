@@ -31,4 +31,13 @@ This is a Jekyll-based GitHub Pages site featuring blog posts and an about me se
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+This site is automatically built and deployed to GitHub Pages using GitHub Actions when changes are pushed to the main branch. The workflow is configured in `.github/workflows/jekyll.yml`.
+
+### Enabling GitHub Pages
+
+1. Go to your repository settings on GitHub
+2. Navigate to "Pages" in the left sidebar
+3. Under "Source", select "GitHub Actions" instead of "Deploy from a branch"
+4. The site will be automatically deployed on the next push to main
+
+The site will be available at `https://smmd.github.io` once deployed.
