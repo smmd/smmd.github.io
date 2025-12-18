@@ -1,0 +1,47 @@
+title: Sagrario Meneses
+description: Mexican passionate about software development
+author: Sagrario Meneses
+email: 
+url: https://smmd.github.io
+baseurl: ""
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site settings
+locale: en_US
+lang: en
+
+# Social links (will be used in footer and about page)
+social:
+  github: smmd
+  devto: smmd
+  website: http://sagrar.io/
+  twitter: 
+  linkedin: 
+  mastodon: 
+  instagram: 
+  youtube: 
+  bluesky: 
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
