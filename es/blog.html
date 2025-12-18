@@ -1,19 +1,15 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
-lang: en
+permalink: /es/blog/
+lang: es
 ---
 
-{% assign current_lang = page.lang | default: site.default_lang %}
 <div class="blog-page">
-  <h1 class="page-heading">All Posts</h1>
+  <h1 class="page-heading">Todas las Publicaciones</h1>
   
   <ul class="post-list">
-    {% assign posts = site.posts | where: "lang", current_lang %}
-    {% if posts.size == 0 %}
-      {% assign posts = site.posts %}
-    {% endif %}
+    {% assign posts = site.posts | where: "lang", "es" %}
     {% for post in posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>

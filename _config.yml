@@ -10,9 +10,35 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
 # Site settings
 locale: en_US
 lang: en
+default_lang: en
+languages: ["en", "es"]
+
+# Translations
+translations:
+  en:
+    site_title: "Sagrario Meneses"
+    site_description: "Mexican passionate about software development"
+    nav_home: "Home"
+    nav_about: "About"
+    nav_blog: "Blog"
+    footer_connect: "Connect with me:"
+    read_in: "Read in"
+    also_available_in: "Also available in"
+  es:
+    site_title: "Sagrario Meneses"
+    site_description: "Mexicana apasionada por el desarrollo de software"
+    nav_home: "Inicio"
+    nav_about: "Acerca de"
+    nav_blog: "Blog"
+    footer_connect: "Conéctate conmigo:"
+    read_in: "Leer en"
+    also_available_in: "También disponible en"
 
 # Social links (will be used in footer and about page)
 social:
@@ -26,13 +52,13 @@ social:
   youtube: 
   bluesky: 
 
-# Navigation
+# Navigation (will be translated in layouts)
 navigation:
-  - title: Home
+  - key: home
     url: /
-  - title: About
+  - key: about
     url: /about
-  - title: Blog
+  - key: blog
     url: /blog
 
 # Exclude from processing
@@ -44,4 +70,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - estandares-de-calidad-en-el-software.md.txt
 

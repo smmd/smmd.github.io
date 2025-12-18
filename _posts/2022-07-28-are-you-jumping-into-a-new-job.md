@@ -3,6 +3,7 @@ layout: post
 title: "Are you Jumping into a New Job?"
 date: 2022-07-28
 tags: [community, programming, careergrowth]
+lang: en
 ---
 
 Changing jobs is a significant decision in any software engineer's career. In this post, I discuss important considerations and share advice for those contemplating a career move.

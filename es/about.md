@@ -1,24 +1,24 @@
 ---
 layout: page
-title: About
-permalink: /about/
-lang: en
+title: Acerca de
+permalink: /es/about/
+lang: es
 ---
 
-# About Me
+# Acerca de mí
 
-Mexican passionate about software development.
+Mexicana apasionada por el desarrollo de software.
 
-**Location:** Mexico  
-**Pronouns:** She, Her  
-**Work:** Senior Software Artisan  
-**Education:** MX-IPN
+**Ubicación:** México  
+**Pronombres:** Ella  
+**Trabajo:** Artesana de Software Senior  
+**Educación:** MX-IPN
 
-## Skills & Languages
+## Habilidades y Lenguajes
 
 PHP, Golang, Javascript, Python, Testing, Clean Code, Laravel, Symfony...
 
-## Connect With Me
+## Conéctate Conmigo
 
 <div class="social-links">
   {% if site.social.github %}
@@ -35,7 +35,7 @@ PHP, Golang, Javascript, Python, Testing, Clean Code, Laravel, Symfony...
   
   {% if site.social.website %}
     <a href="{{ site.social.website }}" target="_blank" rel="noopener noreferrer">
-      <span>Personal Website</span>
+      <span>Sitio Web Personal</span>
     </a>
   {% endif %}
   
@@ -76,7 +76,7 @@ PHP, Golang, Javascript, Python, Testing, Clean Code, Laravel, Symfony...
   {% endif %}
 </div>
 
-## Bio
+## Biografía
 
-🌸 She/Her • ⛪ Catholic • 🎙️ Speaker • 🍷 Sommelier • 💻 Software Engineer
+🌸 Ella • ⛪ Católica • 🎙️ Speaker • 🍷 Sommelier • 💻 Ingeniera de Software
 
