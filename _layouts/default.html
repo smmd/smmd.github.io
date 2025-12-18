@@ -47,13 +47,30 @@
                 {% endif %}
               {% else %}
                 {% if current_lang == 'en' %}
-                  {% assign es_url = page.url | replace: '/posts/', '/es/posts/' | replace: '/', '/es/' %}
                   {% if page.url == '/' %}
                     {% assign es_url = '/es/' %}
+                  {% elsif page.url contains '/about/' %}
+                    {% assign es_url = '/es/about/' %}
+                  {% elsif page.url contains '/blog/' %}
+                    {% assign es_url = '/es/blog/' %}
+                  {% elsif page.url contains '/posts/' %}
+                    {% assign es_url = page.url | replace: '/posts/', '/es/posts/' %}
+                  {% else %}
+                    {% assign es_url = page.url | prepend: '/es' %}
                   {% endif %}
                   <a href="{{ es_url | relative_url }}" class="lang-link" title="Español">ES</a>
                 {% else %}
-                  {% assign en_url = page.url | replace: '/es/posts/', '/posts/' | replace: '/es/', '/' %}
+                  {% if page.url == '/es/' %}
+                    {% assign en_url = '/' %}
+                  {% elsif page.url contains '/es/about/' %}
+                    {% assign en_url = '/about/' %}
+                  {% elsif page.url contains '/es/blog/' %}
+                    {% assign en_url = '/blog/' %}
+                  {% elsif page.url contains '/es/posts/' %}
+                    {% assign en_url = page.url | replace: '/es/posts/', '/posts/' %}
+                  {% else %}
+                    {% assign en_url = page.url | replace: '/es', '' %}
+                  {% endif %}
                   <a href="{{ en_url | relative_url }}" class="lang-link" title="English">EN</a>
                 {% endif %}
               {% endif %}
