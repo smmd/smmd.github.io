@@ -4,6 +4,7 @@ title: "An ancient practice that we keep doing wrong: Code Review"
 date: 2023-02-23
 tags: [programming, productivity, community, management]
 lang: en
+translation: /es/2023/02/23/antigua-practica-revision-de-codigo/
 ---
 
 ### What is "Code Review"?

@@ -4,6 +4,7 @@ title: "Are you Jumping into a New Job?"
 date: 2022-07-28
 tags: [community, programming, careergrowth]
 lang: en
+translation: /es/2022/07/28/estas-cambiando-de-trabajo/
 ---
 
 It was November 2020, yeah 2020, the first year without interactions in offices... Wait, I will give you more context: I had been working for 7 years for e-commerce, I was well appreciated in that job, and I liked it. We were one of the coolest e-commerce companies in LATAM. I started working there when it was a startup and I enjoyed participating in its growth. During my last year there, a big multinational corporation from LATAM acquired the company and with that acquisition, new challenges arrived.

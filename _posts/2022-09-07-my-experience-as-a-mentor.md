@@ -4,6 +4,7 @@ title: "My Experience as a Mentor"
 date: 2022-09-07
 tags: [grow, programming, 100daysofcode, community]
 lang: en
+translation: /es/2022/09/07/mi-experiencia-como-mentora/
 ---
 
 "The circle is now complete. When I left you, I was but the learner. Now, I am the master." - Darth Vader.
