@@ -5,6 +5,10 @@ permalink: /es/about/
 lang: es
 ---
 
+<div class="about-header">
+  <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Sagrario Meneses" class="about-profile-image">
+</div>
+
 # Acerca de mí
 
 Mexicana apasionada por el desarrollo de software.

@@ -10,6 +10,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Show future-dated posts
+future: true
+
 # Permalinks
 permalink: /:year/:month/:day/:title/
 

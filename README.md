@@ -28,6 +28,7 @@ This is a Jekyll-based GitHub Pages site featuring blog posts and an about me se
 - `about.md` - About page
 - `index.html` - Homepage
 - `assets/css/` - Custom styles
+- `assets/images/` - Images for the site (profile photos, blog post images, etc.)
 
 ## Deployment
 

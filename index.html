@@ -7,6 +7,9 @@ lang: en
 {% assign current_lang = page.lang | default: site.default_lang %}
 <div class="home">
   <div class="home-header">
+    <div class="profile-image-container">
+      <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="{{ site.translations[current_lang].site_title | default: site.title }}" class="profile-image">
+    </div>
     <h1 class="page-heading">{{ site.translations[current_lang].site_title | default: site.title }}</h1>
     <p class="site-description">{{ site.translations[current_lang].site_description | default: site.description }}</p>
   </div>
