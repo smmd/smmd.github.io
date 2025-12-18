@@ -140,5 +140,4 @@ Por último, ser la persona que recibe las revisiones también requiere práctic
 
 Estamos en el año 2023, y la IA nos acompaña a diario en nuestras actividades, algunas prácticas desaparecerán pero los diferenciadores permanecerán. Una máquina puede decirnos qué está mal o dónde se puede mejorar una parte del código, sin embargo, la calidez, la empatía y el apoyo que otro ser humano puede brindarnos no se puede reemplazar (todavía), sigamos practicándolo y demos lo mejor de nosotros en todos los procesos en los que participamos.
 
-*Este artículo fue publicado originalmente en [DEV Community](https://dev.to/smmd/an-ancient-practice-that-we-keep-doing-wrong-code-review).*
 

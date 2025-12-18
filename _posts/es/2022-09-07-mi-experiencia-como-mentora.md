@@ -58,5 +58,4 @@ Identificó lo siguiente.
 
 Por último, pero no menos importante. Quiero agradecer a las personas de las que fui mentorá, por todo lo que me enseñaron durante este tiempo; hoy, gracias a ustedes, soy mejor Ingeniera Senior que ayer.
 
-*Este artículo fue publicado originalmente en [DEV Community](https://dev.to/smmd/my-experience-as-a-mentor).*
 

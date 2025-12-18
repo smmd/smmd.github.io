@@ -89,4 +89,3 @@ In my experience working with various engineering teams, I have been able to see
 
 As we can see, the definition and use of standards provides many benefits. Personally, I enjoy work more when there is a focus on quality code than when there are no established rules, however this cannot be achieved without the work of all engineers on a team, it's about everyone pointing together to the same goal.
 
-*This article was originally published on [DEV Community](https://dev.to/smmd/importance-of-code-standards).*

@@ -87,5 +87,4 @@ En mi experiencia trabajando con diversos equipos de ingeniería, he podido ver 
 
 Como podemos ver la definición y el uso de estándares proporciona muchos beneficios, en lo personal, disfruto más el trabajo cuando se tiene un enfoque hacia el código de calidad que cuando no hay reglas establecidas, sin embargo eso no se puede lograr sin el trabajo de todos los ingenieros en un equipo, se trata de apuntar todos juntos a un mismo objetivo.
 
-*Este artículo fue publicado originalmente en [DEV Community](https://dev.to/smmd/importance-of-code-standards).*
 

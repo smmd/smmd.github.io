@@ -44,5 +44,4 @@ Por último, pero no menos importante, para todos, como ingenieros de software, 
 
 Gracias por leer este pedacito de mi vida. Deseo, de todo corazón, que logres todas tus metas.
 
-*Este artículo fue publicado originalmente en [DEV Community](https://dev.to/smmd/are-you-jumping-into-a-new-job).*
 
