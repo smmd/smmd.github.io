@@ -10,7 +10,7 @@ lang: en
 
 According to the official page, this most recent version contains several new features and optimizations. In this post, I will tell you about some of the most interesting new features and detail how to get started. But before that, let’s talk a little about why PHP is a very special language.
 
-##What Makes the PHP Coding Language Fantastic?
+## What Makes the PHP Coding Language Fantastic?
 
 PHP developers are used to dealing with jokes about being bad developers, but thankfully, this has changed recently. The truth is that being a good developer does not depend on the technologies, tools, or languages we use. Instead, being a good developer results from the qualities, skills, and experience acquired from doing our work properly.
 
@@ -24,15 +24,15 @@ And that is not all; today, we are enjoying the latest version of the language.
 
 From my experience working with PHP for years, if I had to name an essential feature of the language, I would say it is the community. The PHP community is one of the warmest and most active communities nowadays, from the creator Rasmus Lerdorf to those who maintain the core of the language, people involved in creating and improving frameworks, the documentation, and the companies that use it and share their knowledge. It’s an amazing community, and I love being a part of it.
 
-##Now, let’s get into PHP 8.
+## Now, let's get into PHP 8.
 
-###Getting Started With PHP 8
+### Getting Started With PHP 8
 
 If this is your first time working with PHP, lucky you! PHP 8 is an excellent version to start with. Some groundbreaking changes were introduced in this update, and I will describe some of them. Keep reading if you’re interested in joining the PHP world.
 
 If you have experience with another PHP version, you will need to make some changes in your code to get it running. You will have it easier if you’re updating from version 7 because most of the changes were deprecated before that version.
 
-###Recommendations for the Transition to PHP8
+### Recommendations for the Transition to PHP 8
 
 - Try to get familiar with the documentation.
 - Do not resist the changes: as time passes, it gets more difficult.
@@ -46,7 +46,7 @@ If you have experience with another PHP version, you will need to make some chan
   * Take baby steps.
 - Make sure to finish what you start.
 
-##The Most Interesting New Features
+## The Most Interesting New Features
 
 ###Constructor Property Promotion
 

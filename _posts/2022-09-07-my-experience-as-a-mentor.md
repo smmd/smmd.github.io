@@ -11,7 +11,7 @@ translation: /es/2022/09/07/mi-experiencia-como-mentora/
 
 Avoid being a master of evil; in the last months, I had the opportunity of being the mentor of two incredible women.
 
-The trip started with my participation in a training program in the company I work for; the company invited people with seniority experience to be mentors of junior and mid-levels. I created my profile following the recommendations of the program team. In the beginning, the truth is I was putting some limitations on myself, such as: 
+The trip started with my participation in a training program in the company I work for; the company invited people with senior-level experience to be mentors of junior and mid-level engineers. I created my profile following the recommendations of the program team. In the beginning, the truth is I was putting some limitations on myself, such as: 
 - "I don't know what to share"
 - "I'm not sure if my experience is useful for anybody."
 - "Maybe, I don't have a mentor profile."
@@ -30,7 +30,7 @@ I was supporting and sharing stuff with two fantastic engineers. Today I do not 
 
 ![Mentee](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pp68w9e9vdnld6vgypfn.jpeg) _(Images source: Hercules 1997 [Disney](https://www.disney.com/) film)_
 
-My first mentees are women, and I'm proud because I'm still working on engineering teams where there is a 10% of female presence. However, I do not limit mentoring by gender; I constantly try to share my knowledge by giving talks, writing articles or offering my help. I think the first step to collaborating with the community is definitely "start" do not let yourself stop you from sharing your **knowledge**. Trust me; you have something to share.
+My first mentees are women, and I'm proud because I'm still working on engineering teams where there is a 10% of female presence. However, I do not limit mentoring by gender; I constantly try to share my knowledge by giving talks, writing articles or offering my help. I think the first step to collaborating with the community is definitely to "start"—do not let yourself stop you from sharing your **knowledge**. Trust me; you have something to share.
 
 ### Here are some things that I learned and I can list from this experience:
 
@@ -41,11 +41,11 @@ My first mentees are women, and I'm proud because I'm still working on engineeri
 5. Being open and sharing vulnerable moments in life can help others to identify and pass their difficult moments faster.
 6. Helping them to be visible in what they do on their team or job. Visibility can boost a career very quickly.
 7. An informal talk can be more valuable than a formal one. However, do not lose the fact that in professional mentoring careers, the relationship, as the name says, is professional, and engineers are not psychologists. If you consider it proper, you can redirect to a specialist.
-8. Share experience related to interview processes with your mentee; what you have already thought can speed up the mentee process.
-9. Do not forget to provide and ask for feedback constantly. Everyone is continually growing as professionals, do not be blocked from that, and listen/share the areas of opportunity.
+8. Share experience related to interview processes with your mentee; what you have already gone through can speed up the mentee's process.
+9. Do not forget to provide and ask for feedback constantly. Everyone is continually growing as professionals; do not be blocked from that, and listen/share the areas of opportunity.
 10. Share sources, books, posts, podcasts, etc., that can be helpful for your mentee, but remember it is not homework; if they have the chance, they can use those resources.
 
-There might be other things that I could list here. But, I preferred to limit it to these ten because, in the end, we are different people, and there is no zero to a hero for being a **good mentor**. I can only tell you that if you want to try, take the risk and be open to constantly improving as a professional.
+There might be other things that I could list here. But I preferred to limit it to these ten because, in the end, we are different people, and there is no "zero to hero" path for being a **good mentor**. I can only tell you that if you want to try, take the risk and be open to constantly improving as a professional.
 
 ### What was my professional growth during this experience? 
 I identify the following.

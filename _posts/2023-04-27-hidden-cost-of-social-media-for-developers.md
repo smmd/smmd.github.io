@@ -8,11 +8,11 @@ lang: en
 
 I decided to write this opinion post because it is a topic we have always discussed. Our daily dose of "Tech Drama" gives us happiness and pleasure, but sometimes it also gives us bad feelings, such as sadness, madness and anger. **What happens with the Developers in social media?** _(Maybe the question is "What happens with the people in social media?" and not only developers, but let me try to write this post in the context of my area.)_
 
-There is a daily competition to have the highest number of followers, be an "Influencer", and have a monetized life, which is fine, but remember, 
+There is a daily competition to have the highest number of followers, be an "Influencer," and have a monetized life, which is fine, but remember, 
 
 > "With Great Power Comes Great Responsibility" Uncle Ben - Spider-Man.
 
-We have developed an addiction to creating, consuming, and sharing magical recipes. The tech community is full of headlines similar to "Learn to code in one day", "Make a lot of money programming", "Unlock your inner programmer", and "With my infallible programming course, you get a job in IT even if you have no experience", the most recent one "Become an AI expert" and don't get me wrong, it's not that these courses are rubbish or that it's impossible to reach what their titles promise, it's instead that in my opinion lately we only have that kind of posts and that forces us to do research for quality content and the decision of where we are going gets complicated.
+We have developed an addiction to creating, consuming, and sharing magical recipes. The tech community is full of headlines similar to "Learn to code in one day," "Make a lot of money programming," "Unlock your inner programmer," and "With my infallible programming course, you get a job in IT even if you have no experience," the most recent one being "Become an AI expert." Don't get me wrong—it's not that these courses are rubbish or that it's impossible to reach what their titles promise. Instead, in my opinion, lately we only have that kind of posts, which forces us to do research for quality content and makes the decision of where we are going more complicated.
 
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xq8qrpjrl39sirq138jm.png)
@@ -36,7 +36,7 @@ For a content creator:
 - Content saturation: The vast amount of content on social networks can lead to saturation, where your content may get buried or lost in the sea of information, making it challenging to gain visibility and build an audience.
 - Reputation management: Social networks can play a significant role in shaping your online reputation. Harmful or misleading content about you or your work may spread quickly, and managing your reputation may become challenging, potentially affecting your credibility as a content creator.
 
-Well, okay... every environment and everything we try has its dangers. This post does not intend to discourage or ask you to delete your social networks. It is simply a door to analysis. How much of this environment does it contribute to me as a professional?
+Well, okay... every environment and everything we try has its dangers. This post does not intend to discourage you or ask you to delete your social networks. It is simply a door to analysis. How much does this environment contribute to me as a professional?
 
 
 # Damages I can tell you about
@@ -68,11 +68,11 @@ Also, people start pitching fights with others because they have opposite ideas 
 You can think of more uses with a good impact. Good luck browsing there.
 
 Before finishing this post, I want to give you some advice. Keep in mind the number of people on social media vs the real people;
-- This planet has an approximate population of **8000** million.
-- Around **5160** of those millions have an Internet connection.
-- Around **300** millions of those use Twitter(as example).
-- And more than once the content creators who feel **powerful** do not even reach **1** million.
+- This planet has an approximate population of **8 billion**.
+- Around **5.16 billion** of those have an Internet connection.
+- Around **300 million** of those use Twitter (as an example).
+- And more than once, the content creators who feel **powerful** do not even reach **1 million**.
 
 Stay aware of your reach and the impact you can make; that means remembering these numbers the next time you participate in a "Tech Drama". And also, as part of this point, consider the differences in a person's behaviour on the Internet and face-to-face. There are many. Let's think more about our actions in the virtual world, not for others, nor to maintain followers, but for our good and growth.
 
-Thanks for getting here, happy Social Media interaction! if you read me, say hi!
+Thanks for getting here! Happy social media interaction! If you read this, say hi!

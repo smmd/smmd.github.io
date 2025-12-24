@@ -16,8 +16,7 @@ More recently, I found myself facing the fact that I have been diagnosed with an
 
 I am now going through a separation from someone significant to me. Life sometimes puts us on different paths from the people we love. Sometimes, it makes you evaluate the things that put you on the same path in the first place and reflect on whether that feature is still in use or should be updated.
 
-> 
-"Shit happens!"
+> "Shit happens!"
 
 The important thing is always to give the best of ourselves. We should always learn from every situation that happens to us. As a failed deployment, I must know where to set up the configurations next time.
 
@@ -25,7 +24,7 @@ The problem I've faced recently is that a failed deployment doesn't hurt as much
 
 Luckily, I work for a company that allows me to be human. However, to maintain trust with an employer, we must first show results and communicate clearly.
 
-During this stage of my life, I might not share details about my situation with my team, but I raise my hand and mention that something important is happening to me, and I could need moments of support. If you work in the correct place, they will say, "You can count on us" (spoiler: I'm in the correct place, I'm very fortunate).
+During this stage of my life, I might not share details about my situation with my team, but I raise my hand and mention that something important is happening to me and that I might need moments of support. If you work in the correct place, they will say, "You can count on us" (spoiler: I'm in the correct place, I'm very fortunate).
 
 I will share the current list of agreements with myself with you.
 
@@ -41,13 +40,13 @@ I will share the current list of agreements with myself with you.
 
 About my tasks as a software engineer:
 
-- Split objectives and conquer. Focus on small results, and recognize you are giving your best.
-- Save your concentration time (check some apps to help with time organization and follow the rules).
+- Divide and conquer. Focus on small results, and recognize you are giving your best.
+- Save your concentration time (check some apps to help with time organization and follow their rules).
 - Doing pair programming helps a lot so as not to lose concentration.
-- Remember the commitments you made at work and store the fulfilled register.
+- Remember the commitments you made at work and keep track of what you've fulfilled.
 - Remember that taking care of your work is taking care of yourself.
 - Post notes in your workspace that motivate you.
-- Ask for feedback to your coworkers.
+- Ask your coworkers for feedback.
 
 
 Last but most importantly, remember that everything happens and ends. We can't control our lives like we control the logs of an application, but we can control how we feel about it. Let go; it's the best thing we can do.

@@ -26,7 +26,7 @@ Looking into a piece of code with a coworker, developers can make recommendation
 - Pull Request (PR) on GitHub.
 - Merge Request (MR) on GitLab.
 
-This feature allows developers to propose changes to a codebase owned by someone else. It is a way to review and discuss the proposed changes before merging them, allowing other developers to leave comments, request, or approve them asynchronously.
+This feature allows developers to propose changes to a codebase owned by someone else. It is a way to review and discuss the proposed changes before merging them, allowing other developers to leave comments, request changes, or approve them asynchronously.
 
 #### In any proposed piece of code:
 
@@ -63,15 +63,15 @@ A good idea to apply this practice correctly in teams is to set some rules befor
 - Establish a description template with the minimum points the team will need to understand the context and purpose of a code change request and apply that template consistently in all the requests.
 - The minimum number of reviewers to approve a piece of code; this will depend on the size of team. 
 - Channels or tools that will communicate to the team that a code is ready to be reviewed.
-- A time between the reviews means if a developer marks a piece of code ready to review and the team makes suggestions or asks for changes, and the developer update applies those changes, the amount of time that should pass in order to ask for a new review. This rule can be helpful in big teams which are involved in different systems, which need to split time between develop and review. In small teams, a rule of this kind is optional.
+- A time between reviews means: if a developer marks a piece of code ready to review and the team makes suggestions or asks for changes, and the developer applies those updates, the amount of time that should pass before asking for a new review. This rule can be helpful in big teams that are involved in different systems and need to split time between development and review. In small teams, a rule of this kind is optional.
 
 ### Effective review
 
 > A good review needs experience and professionalism rather than seniority level. 
 
-Only some developers can do a good code review, which is the main reason to write this post. **This practice is not new at all**. On the contrary, it has existed for decades since people have written codes. One of the earliest references to this practice as a formal process is in the book "The Mythical Man-Month" by Fred Brooks, published in 1975.
+Only some developers can do a good code review, which is the main reason I wrote this post. **This practice is not new at all**. On the contrary, it has existed for decades since people have written codes. One of the earliest references to this practice as a formal process is in the book "The Mythical Man-Month" by Fred Brooks, published in 1975.
 
-So, why is it still a popular topic? I have been working with software engineering teams for around 12 years, and I keep reading comments that are vague or aggressive in tone or lack explanation and context, which makes it challenging to produce effective code changes.
+So, why is it still a popular topic? I have been working with software engineering teams for around 12 years, and I keep reading comments that are vague or aggressive in tone, or lack explanation and context, which makes it challenging to produce effective code changes.
 
 #### Code review **IS NOT** a practice for:
 
@@ -101,7 +101,7 @@ Bad review:
 _"This code is bad. Why are you doing a linear search?"_
 
 Good review:
-_"This code block could be optimized by using a binary search instead of a linear one. Applied this would improve performance when searching large data sets."_
+_"This code block could be optimized by using a binary search instead of a linear one. This would improve performance when searching large data sets."_
 
 In the bad review, there is criticism without proposing alternatives or why the code needs to be improved. On the other hand, the good one offers an optimization, explaining why that different approach can improve the function.
 
@@ -115,7 +115,7 @@ More bad ones:
 
 Code review comments should be specific, constructive, and actionable, avoiding personal aggressions, dismissive language, and generalizations.
 
-Altogether avoid the use of exclamation marks and icons to emphasize feedback. Finally, remember that misinterpretations in written communication are common that could occur even if the intention is good.
+Avoid the use of exclamation marks and icons to emphasize feedback altogether. Finally, remember that misinterpretations in written communication are common and could occur even if the intention is good.
 
 #### Code review **IS** a practice for:
 
@@ -136,17 +136,17 @@ Also, remember to take the time. Work is demanding, and sometimes we don't take 
 
 Another suggestion is to establish conventional comments like the "NIT" (nitpicker) prefix, which means you are suggesting a change, but it does not block or prevent that request from being accepted/merged; it is simply a "perfection" that you offer but that can be ignored. You can learn more about conventional comments [here](https://conventionalcomments.org/).
 
-### Code review receptor
+### Receiving code reviews
 
 Lastly, being the person who receives reviews also needs practice.
 
-- Do not take it personal. 
+- Do not take it personally. 
 Even if you receive a bad comment, remember that the team's objective will always be to deliver quality. A piece of your work is in review, not your person or your work itself.
 
 - Being a team player.
 Other people will use the piece of code that you wrote today. Therefore, being open to modifying your work for the good of the team and the product is essential.
 
-- Responds positively to feedback.
+- Respond positively to feedback.
 There will be cases in which, as the developer who wrote the piece of code, you will have reasons to believe that it is the solution that should remain, however, if someone asks for changes or suggests something else you should communicate your reasons clearly and justify them.
 
 - Participate in the review exchange.
