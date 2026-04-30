@@ -91,11 +91,12 @@
           <div class="trigger">
             {% for item in site.navigation %}
               {% assign nav_key = item.key %}
+              {% assign nav_label_key = nav_key | prepend: 'nav_' %}
               {% assign nav_url = item.url %}
               {% if current_lang == 'es' and nav_url != '/' %}
                 {% assign nav_url = nav_url | prepend: '/es' %}
               {% endif %}
-              <a class="page-link" href="{{ nav_url | relative_url }}">{{ site.translations[current_lang][nav_key] }}</a>
+              <a class="page-link" href="{{ nav_url | relative_url }}">{{ site.translations[current_lang][nav_label_key] }}</a>
             {% endfor %}
             <div class="language-switcher">
               {% if page.translation %}

@@ -30,6 +30,7 @@ translations:
     nav_home: "Home"
     nav_about: "About"
     nav_blog: "Blog"
+    nav_talks: "Talks"
     footer_connect: "Connect with me:"
     read_in: "Read in"
     also_available_in: "Also available in"
@@ -39,6 +40,7 @@ translations:
     nav_home: "Inicio"
     nav_about: "Acerca de"
     nav_blog: "Blog"
+    nav_talks: "Charlas"
     footer_connect: "Conéctate conmigo:"
     read_in: "Leer en"
     also_available_in: "También disponible en"
@@ -77,6 +79,8 @@ navigation:
     url: /
   - key: about
     url: /about
+  - key: talks
+    url: /talks/
   - key: blog
     url: /blog
 
