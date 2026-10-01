@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.translations[current_lang].site_description | default: site.description }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+    <meta name="theme-color" content="#2a7ae2">
 
     {% seo %}
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
     <!-- Alternate language versions -->
     {% if page.translation %}
@@ -48,7 +47,6 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ '/feed.xml' | relative_url }}">
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -154,17 +152,24 @@
             <div class="social-links">
               {% if site.social.github %}
                 <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                  <i class="fab fa-github"></i>
+                  <svg class="social-icon social-icon--filled" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                    <path fill="currentColor" d="M8 0C3.58 0 0 3.64 0 8.13c0 3.59 2.29 6.64 5.47 7.71.4.08.55-.18.55-.39 0-.19-.01-.83-.01-1.51-2.01.38-2.53-.5-2.69-.96-.09-.23-.48-.96-.82-1.15-.28-.15-.68-.53-.01-.54.63-.01 1.08.59 1.23.83.72 1.23 1.87.88 2.33.67.07-.53.28-.88.51-1.08-1.78-.21-3.64-.91-3.64-4.02 0-.89.31-1.62.82-2.19-.08-.2-.36-1.04.08-2.16 0 0 .67-.22 2.2.84A7.5 7.5 0 0 1 8 3.91c.68 0 1.36.09 2 .27 1.53-1.06 2.2-.84 2.2-.84.44 1.12.16 1.96.08 2.16.51.57.82 1.3.82 2.19 0 3.12-1.87 3.81-3.65 4.02.29.25.54.74.54 1.5 0 1.08-.01 1.95-.01 2.22 0 .22.15.47.55.39A8.03 8.03 0 0 0 16 8.13C16 3.64 12.42 0 8 0Z"/>
+                  </svg>
                 </a>
               {% endif %}
               {% if site.social.devto %}
                 <a href="https://dev.to/{{ site.social.devto }}" target="_blank" rel="noopener noreferrer" aria-label="DEV Community">
-                  <i class="fab fa-dev"></i>
+                  <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="m7 8-4 4 4 4m10-8 4 4-4 4M14 4l-4 16"/>
+                  </svg>
                 </a>
               {% endif %}
               {% if site.social.website %}
                 <a href="{{ site.social.website }}" target="_blank" rel="noopener noreferrer" aria-label="Website">
-                  <i class="fas fa-globe"></i>
+                  <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/>
+                  </svg>
                 </a>
               {% endif %}
             </div>

@@ -484,9 +484,20 @@ body {
   color: #000;
 }
 
-.social-links i {
+.social-icon {
+  width: 1.1rem;
+  height: 1.1rem;
   margin-right: 8px;
-  font-size: 1.1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.social-icon--filled {
+  fill: currentColor;
+  stroke: none;
 }
 
 /* Footer */
@@ -540,7 +551,7 @@ body {
   transform: translateY(-2px);
 }
 
-.footer-col .social-links i {
+.footer-col .social-links .social-icon {
   margin: 0;
 }
 

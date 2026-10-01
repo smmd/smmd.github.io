@@ -1,5 +1,5 @@
 title: Sagrario Meneses
-description: Hey there! I'm Sag, a Mexican software engineer passionate about building robust and scalable backend systems. I love diving deep into software architecture, contributing to open source, and sharing knowledge with the tech community.
+description: "Software engineering blog by Sagrario Meneses, focusing on backend architecture, developer tools, software engineering skills, and ideas."
 author: Sagrario Meneses
 email: 
 url: https://smmd.github.io
@@ -26,7 +26,7 @@ languages: ["en", "es"]
 translations:
   en:
     site_title: "Sagrario Meneses"
-    site_description: "Hey there! I'm Sag, a Mexican software engineer passionate about building robust and scalable backend systems. I love diving deep into software architecture, contributing to open source, and sharing knowledge with the tech community."
+    site_description: "Software engineering blog by Sagrario Meneses, focusing on backend architecture, developer tools, software engineering skills, and ideas."
     nav_home: "Home"
     nav_about: "About"
     nav_blog: "Blog"

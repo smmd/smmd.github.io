@@ -1,0 +1,29 @@
+# Sagrario Meneses
+
+> A software engineering blog focused on backend architecture, developer tools, engineering skills, and practical ideas for building robust systems.
+
+Sagrario Meneses is a Mexican software engineer who writes about software architecture, PHP, code quality, engineering culture, career growth, and developer well-being. Content is available in English and Spanish.
+
+## Main pages
+
+- [Home](https://smmd.github.io/): Latest writing and an introduction to the site.
+- [About](https://smmd.github.io/about/): Background, skills, and ways to connect with Sagrario Meneses.
+- [Blog](https://smmd.github.io/blog/): All English-language articles.
+- [Talks and topics](https://smmd.github.io/talks/): Speaking and collaboration topics covering architecture, tooling, and engineering culture.
+- [Spanish home](https://smmd.github.io/es/): Spanish-language content.
+- [Spanish blog](https://smmd.github.io/es/blog/): All Spanish-language articles.
+
+## Selected articles
+
+- [Finding Strength in Code, Part 2: Lessons from Loss and the Power of Reflection](https://smmd.github.io/2025/11/28/finding-strength-in-code-part-2/)
+- [New Year's Resolutions for Software Engineers](https://smmd.github.io/2024/12/29/new-years-resolutions-for-software-engineers/)
+- [Finding Strength in Code: Navigating Emotional Overwhelm as a Software Engineer](https://smmd.github.io/2024/08/08/finding-strength-in-code-navigating-emotional-overwhelm/)
+- [The Hidden Cost of Social Media for Developers Community](https://smmd.github.io/2023/04/27/hidden-cost-of-social-media-for-developers/)
+- [An Ancient Practice That We Keep Doing Wrong: Code Review](https://smmd.github.io/2023/02/23/ancient-practice-code-review/)
+- [Importance of Code Standards](https://smmd.github.io/2022/01/03/importance-of-code-standards/)
+- [PHP 8: How to Get Started](https://smmd.github.io/2021/12/27/php-8-how-to-get-started/)
+
+## Feeds
+
+- [RSS feed](https://smmd.github.io/feed.xml): Machine-readable updates for published articles.
+- [Sitemap](https://smmd.github.io/sitemap.xml): Index of public site URLs.

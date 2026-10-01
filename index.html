@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Engineering, Tools & Thought
 lang: en
 ---
 
@@ -10,8 +10,8 @@ lang: en
     <div class="profile-image-container">
       <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="{{ site.translations[current_lang].site_title | default: site.title }}" class="profile-image">
     </div>
-    <h1 class="page-heading">{{ site.translations[current_lang].site_title | default: site.title }}</h1>
-    <p class="site-description">Hey there! I'm Sag, a Mexican software engineer passionate about building robust and scalable backend systems. I love diving deep into software architecture, contributing to open source, and sharing knowledge with the tech community.</p>
+    <h1 class="page-heading">Engineering, Tools &amp; Thought by Sagrario Meneses</h1>
+    <p class="site-description">Software engineering insights from a Mexican software engineer, covering backend architecture, developer tools, software engineering skills, and ideas for building robust, scalable systems.</p>
   </div>
 
   <div class="posts">
@@ -46,7 +46,7 @@ lang: en
 
   <div class="about-preview">
     <h2>{% if current_lang == 'es' %}Acerca de mí{% else %}About Me{% endif %}</h2>
-    <p>{% if current_lang == 'es' %}¡Hola! Soy Sag, una ingeniera de software mexicana apasionada por construir sistemas backend robustos y escalables. Me encanta profundizar en arquitectura de software, contribuir a proyectos de código abierto y compartir conocimiento con la comunidad tecnológica.{% else %}Hey there! I'm Sag, a Mexican software engineer passionate about building robust and scalable backend systems. I love diving deep into software architecture, contributing to open source, and sharing knowledge with the tech community.{% endif %}</p>
-    <a href="{% if current_lang == 'es' %}/es/about{% else %}/about{% endif %}" class="btn">{% if current_lang == 'es' %}Saber más{% else %}Learn More{% endif %}</a>
+    <p>{% if current_lang == 'es' %}¡Hola! Soy Sag, una ingeniera de software mexicana apasionada por construir sistemas backend robustos y escalables. Me encanta profundizar en arquitectura de software, contribuir a proyectos de código abierto y compartir conocimiento con la comunidad tecnológica.{% else %}I’m Sagrario Meneses, a Mexican software engineer sharing practical ideas about backend architecture, developer tools, and the skills behind robust, scalable software systems.{% endif %}</p>
+    <a href="{% if current_lang == 'es' %}/es/about{% else %}/about{% endif %}" class="btn">{% if current_lang == 'es' %}Conoce más sobre Sagrario Meneses{% else %}Learn more about Sagrario Meneses{% endif %}</a>
   </div>
 </div>
